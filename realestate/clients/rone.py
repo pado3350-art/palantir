@@ -177,6 +177,7 @@ def to_observation(row: dict[str, Any]) -> dict[str, Any]:
         "period_desc": row.get("WRTTIME_DESC"),
         "region_code": row.get("CLS_ID"),
         "region_name": row.get("CLS_FULLNM") or row.get("CLS_NM"),
+        "region_short_name": row.get("CLS_NM"),
         "item_id": row.get("ITM_ID"),
         "item_name": row.get("ITM_NM"),
         "value": value,

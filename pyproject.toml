@@ -3,7 +3,7 @@ name = "realestate"
 version = "0.1.0"
 description = "한국부동산원 R-ONE 공공 API 기반 부동산 분석 도구"
 requires-python = ">=3.11"
-dependencies = ["httpx>=0.27"]
+dependencies = ["httpx>=0.27", "duckdb>=1.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

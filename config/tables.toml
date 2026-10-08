@@ -1,0 +1,16 @@
+# 수집 대상 통계표.
+# STATBL_ID는 `python -m realestate.cli sync-catalog` 후
+# `python -m realestate.cli tables --search 아파트` 로 찾아서 채운다.
+#
+# cycle: WK(주) / MM(월) / QY(분기) / HY(반기) / YY(년)
+#
+# 예시 (ID는 실제 값으로 바꿀 것):
+# [[tables]]
+# statbl_id = "A_2024_00000"
+# cycle = "WK"
+# name = "주간 아파트 매매가격지수"
+#
+# [[tables]]
+# statbl_id = "A_2024_00001"
+# cycle = "MM"
+# name = "월간 아파트 전세가격지수"
